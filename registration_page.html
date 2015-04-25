@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MIPT.HUNT - user page</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+<header>
+    <div class="container">
+        <div class="row centered-form">
+            <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Форма регистрации<br><small>Пожалуйста, заполните все поля</small></h3>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="Имя">
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Фамилия">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email адрес">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="password" name="password" id="password" class="form-control input-sm" placeholder="Пароль">
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Пароль ещё раз">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <font color="black">
+                                Скиллы:<br>
+                                <div class="well" style="max-height: 200px;overflow: auto;">
+                                    <ul class="list-group checked-list-box">
+                                        <li class="list-group-item">
+                                            <input type="checkbox"> Senior Developer
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input type="checkbox"> Good Knowlage in Math
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input type="checkbox"> Senior Developer
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input type="checkbox"> Good Knowlage in Math
+                                        </li>
+                                    </ul>
+                                </div>
+                                </font>
+                            </div>
+
+                            <div class="form-group">
+                                <font color="black">
+                                    Информация обо мне
+                                </font>
+                                <textarea rows="5" class="form-control" placeholder="Обо мне" id="letter_message" required data-validation-required-message="Пожалуйста, напишите информацию о вас."></textarea>
+                            </div>
+
+                            <input type="submit" value="Регистрация" class="btn btn-info btn-block" id="registration_button">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+</body>
+</html>
